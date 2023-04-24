@@ -1,13 +1,13 @@
 package com.example.e_tivity_5_threading_ED5042;
 
-import androidx.appcompat.app.AppCompatActivity;
+// Oisin O'Sullivan 21304971
+
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Looper;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.ImageView;
@@ -16,8 +16,6 @@ import com.example.e_tivity_5_threading_ED5042.databinding.ActivityMainBinding;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 public class MainActivity extends Activity {
